@@ -1,0 +1,26 @@
+###################
+Gamebase SDK 설치
+###################
+
+Setting Tool을 통해서 Gamebase SDK를 설치합니다.
+
+플랫폼 선택
+=============
+
+Android만 선택합니다.
+
+모듈 선택
+============
+
+이 코드 랩에서는 Guest 로그인만을 수행하기 때문에 모듈을 선택하지 않습니다.
+
+설치
+===========
+
+플랫폼과 모듈을 선택했으면 Gamebase SDK를 설치합니다.
+
+* **Settings** 클릭
+
+.. image:: _static/image/settingtool_setting_for_guest.png
+    :scale: 50%
+

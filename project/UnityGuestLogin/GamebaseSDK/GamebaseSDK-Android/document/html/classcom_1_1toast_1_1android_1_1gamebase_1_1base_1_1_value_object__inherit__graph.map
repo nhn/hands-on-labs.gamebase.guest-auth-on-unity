@@ -1,0 +1,11 @@
+<map id="ValueObject" name="ValueObject">
+<area shape="rect" id="node2" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1auth_1_1data_1_1_auth_token.html" title="Created by shhong on 2016. " alt="" coords="5,227,210,513"/>
+<area shape="rect" id="node3" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1auth_1_1data_1_1_ban_info.html" title="Ban information for user who have been banned. " alt="" coords="234,293,328,447"/>
+<area shape="rect" id="node4" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1auth_1_1data_1_1_transfer_key_info.html" title="TransferKeyInfo. " alt="" coords="352,313,488,427"/>
+<area shape="rect" id="node5" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1purchase_1_1_purchasable_item.html" title="The information of the item that can buy. " alt="" coords="511,307,632,433"/>
+<area shape="rect" id="node6" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1purchase_1_1_purchasable_receipt.html" title="The information of the item that is paid. " alt="" coords="656,307,797,433"/>
+<area shape="rect" id="node7" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1purchase_1_1_purchasable_retry_transaction_result.html" title="The information of the items that are result of the Purchasable#requestRetryTransaction(Activity, Purchasable.PurchaseCallback). " alt="" coords="820,320,1017,420"/>
+<area shape="rect" id="node8" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1push_1_1_push_configuration.html" title="Parameter class for the initialization of the Pushable#registerPush(Map, Pushable.PushCallback). " alt="" coords="1041,300,1206,440"/>
+<area shape="rect" id="node9" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1launching_1_1data_1_1_launching_info.html" title="Created by shhong on 2017. " alt="" coords="1230,193,1492,547"/>
+<area shape="rect" id="node10" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1launching_1_1data_1_1_launching_status.html" title="Created by shhong on 2016. " alt="" coords="1516,240,1766,500"/>
+</map>

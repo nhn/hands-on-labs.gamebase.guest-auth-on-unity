@@ -1,0 +1,38 @@
+#######################
+Gamebase 설정
+#######################
+
+
+Game Object 생성
+=========================
+
+* Hierarchy Window > 우클릭 > Create Empty 
+    * Name : GamebaseSetting
+* Inspector Window > Add Component : Gamebase Unity SDK Settings
+    
+.. image:: _static/image/unity_gamebase_object.png
+    :scale: 50%
+
+
+Inspector 설정
+=========================
+
+Gamebase Console 값을 참고해서 다음 값들을 셋팅합니다.
+
+* Hierarchy Window > GamebaseSetting 클릭
+* Inspector Window
+    * App ID 입력
+    * App Version 입력
+
+.. image:: _static/image/console_app_id.png
+    :scale: 50%
+
+.. image:: _static/image/console_app_version.png
+    :scale: 50%
+
+.. image:: _static/image/unity_app_setting.png
+    :scale: 50%
+
+
+
+

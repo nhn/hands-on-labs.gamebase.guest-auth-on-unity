@@ -1,0 +1,24 @@
+#######################
+Gamebase SDK 다운로드
+#######################
+
+Setting Tool을 통해서 Gamebase SDK를 다운로드합니다.
+
+Setting Tool 실행
+=======================
+
+* **Menu > Tools > TOAST > Gamebase > Setting Tool > Settings**
+
+
+Gamebase SDK 다운로드
+=======================
+
+* **Download SDK** 클릭
+
+
+Gamebase SDK 확인
+=======================
+
+* {PROJECT PATH}/GamebaseSDK
+
+  .. image:: _static/image/gamebase_sdk_explorer.png

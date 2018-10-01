@@ -1,0 +1,171 @@
+\hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider}{}\section{Auth\+Provider Interface Reference}
+\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider}\index{Auth\+Provider@{Auth\+Provider}}
+
+
+Created by shhong on 2016.  
+
+
+
+
+Collaboration diagram for Auth\+Provider\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_1_1_console_auth_key}{Console\+Auth\+Key}
+\item 
+interface \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_1_1_login_callback}{Login\+Callback}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a923c7de30b5d052e5d108dbdf5aee7c9}{initialize} (final Context application\+Context, final Auth\+Provider\+Configuration configuration)
+\item 
+void \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a65d305c7970261995b0507854ee39714}{login} (final Activity activity, final Map$<$ String, Object $>$ additional\+Info, @Nullable final \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_1_1_login_callback}{Login\+Callback} callback)
+\item 
+void \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a1af55df87e37292a150f183f1307ac43}{logout} ()
+\item 
+void \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_aafa8642d1e3cd871c8fee9462212f95d}{withdraw} ()
+\item 
+String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_ae151df64ed9709b56ffeba6ae4fe8c14}{get\+Provider\+Name} ()
+\item 
+String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a1a86b0102452494152fce9535952e4f4}{get\+User\+Id} ()
+\item 
+String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_ae5d68509be41985a7f70a8fb907a576a}{get\+Access\+Token} ()
+\item 
+Auth\+Provider\+Profile \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a5f70d0f45000c4b1a07474f3a4aba952}{get\+Profile} ()
+\item 
+void \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a3bc85abb35d480f743e4b74d5de3d549}{on\+Activity\+Result} (int request\+Code, int result\+Code, Intent data)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_ad6ed37141b7df9cc0418058144e9e03d}{G\+U\+E\+ST} = \char`\"{}guest\char`\"{}
+\item 
+static final String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_aaab107cd127e128ea2f0049ca79472aa}{G\+O\+O\+G\+LE} = \char`\"{}google\char`\"{}
+\item 
+static final String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a826bfaa856a255c430303037e0c1bc7a}{F\+A\+C\+E\+B\+O\+OK} = \char`\"{}facebook\char`\"{}
+\item 
+static final String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a43e20142314d9728d15f5e18072cb8be}{P\+A\+Y\+CO} = \char`\"{}payco\char`\"{}
+\item 
+static final String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a5453310696cdf739d8000dc04ed91618}{N\+A\+V\+ER} = \char`\"{}naver\char`\"{}
+\item 
+static final String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_aa26a8100187d9ee0ebb8deb56c7df078}{T\+W\+I\+T\+T\+ER} = \char`\"{}twitter\char`\"{}
+\item 
+static final String \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a803a65a6dfb87b8879dc3e9cd74efae1}{L\+I\+NE} = \char`\"{}line\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Created by shhong on 2016. 
+
+
+\begin{DoxyEnumerate}
+\item 21.. 
+\end{DoxyEnumerate}
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_ae5d68509be41985a7f70a8fb907a576a}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_ae5d68509be41985a7f70a8fb907a576a}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!get\+Access\+Token@{get\+Access\+Token}}
+\index{get\+Access\+Token@{get\+Access\+Token}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{get\+Access\+Token()}{getAccessToken()}}
+{\footnotesize\ttfamily String get\+Access\+Token (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a5f70d0f45000c4b1a07474f3a4aba952}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a5f70d0f45000c4b1a07474f3a4aba952}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!get\+Profile@{get\+Profile}}
+\index{get\+Profile@{get\+Profile}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{get\+Profile()}{getProfile()}}
+{\footnotesize\ttfamily Auth\+Provider\+Profile get\+Profile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_ae151df64ed9709b56ffeba6ae4fe8c14}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_ae151df64ed9709b56ffeba6ae4fe8c14}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!get\+Provider\+Name@{get\+Provider\+Name}}
+\index{get\+Provider\+Name@{get\+Provider\+Name}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{get\+Provider\+Name()}{getProviderName()}}
+{\footnotesize\ttfamily String get\+Provider\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a1a86b0102452494152fce9535952e4f4}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a1a86b0102452494152fce9535952e4f4}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!get\+User\+Id@{get\+User\+Id}}
+\index{get\+User\+Id@{get\+User\+Id}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{get\+User\+Id()}{getUserId()}}
+{\footnotesize\ttfamily String get\+User\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a923c7de30b5d052e5d108dbdf5aee7c9}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a923c7de30b5d052e5d108dbdf5aee7c9}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!initialize@{initialize}}
+\index{initialize@{initialize}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily void initialize (\begin{DoxyParamCaption}\item[{final Context}]{application\+Context,  }\item[{final Auth\+Provider\+Configuration}]{configuration }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a65d305c7970261995b0507854ee39714}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a65d305c7970261995b0507854ee39714}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!login@{login}}
+\index{login@{login}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily void login (\begin{DoxyParamCaption}\item[{final Activity}]{activity,  }\item[{final Map$<$ String, Object $>$}]{additional\+Info,  }\item[{@Nullable final \hyperlink{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_1_1_login_callback}{Login\+Callback}}]{callback }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a1af55df87e37292a150f183f1307ac43}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a1af55df87e37292a150f183f1307ac43}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!logout@{logout}}
+\index{logout@{logout}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{logout()}{logout()}}
+{\footnotesize\ttfamily void logout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a3bc85abb35d480f743e4b74d5de3d549}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a3bc85abb35d480f743e4b74d5de3d549}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!on\+Activity\+Result@{on\+Activity\+Result}}
+\index{on\+Activity\+Result@{on\+Activity\+Result}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{on\+Activity\+Result()}{onActivityResult()}}
+{\footnotesize\ttfamily void on\+Activity\+Result (\begin{DoxyParamCaption}\item[{int}]{request\+Code,  }\item[{int}]{result\+Code,  }\item[{Intent}]{data }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_aafa8642d1e3cd871c8fee9462212f95d}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_aafa8642d1e3cd871c8fee9462212f95d}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!withdraw@{withdraw}}
+\index{withdraw@{withdraw}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{withdraw()}{withdraw()}}
+{\footnotesize\ttfamily void withdraw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a826bfaa856a255c430303037e0c1bc7a}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a826bfaa856a255c430303037e0c1bc7a}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!F\+A\+C\+E\+B\+O\+OK@{F\+A\+C\+E\+B\+O\+OK}}
+\index{F\+A\+C\+E\+B\+O\+OK@{F\+A\+C\+E\+B\+O\+OK}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{F\+A\+C\+E\+B\+O\+OK}{FACEBOOK}}
+{\footnotesize\ttfamily final String F\+A\+C\+E\+B\+O\+OK = \char`\"{}facebook\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_aaab107cd127e128ea2f0049ca79472aa}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_aaab107cd127e128ea2f0049ca79472aa}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!G\+O\+O\+G\+LE@{G\+O\+O\+G\+LE}}
+\index{G\+O\+O\+G\+LE@{G\+O\+O\+G\+LE}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{G\+O\+O\+G\+LE}{GOOGLE}}
+{\footnotesize\ttfamily final String G\+O\+O\+G\+LE = \char`\"{}google\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_ad6ed37141b7df9cc0418058144e9e03d}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_ad6ed37141b7df9cc0418058144e9e03d}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!G\+U\+E\+ST@{G\+U\+E\+ST}}
+\index{G\+U\+E\+ST@{G\+U\+E\+ST}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{G\+U\+E\+ST}{GUEST}}
+{\footnotesize\ttfamily final String G\+U\+E\+ST = \char`\"{}guest\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a803a65a6dfb87b8879dc3e9cd74efae1}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a803a65a6dfb87b8879dc3e9cd74efae1}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!L\+I\+NE@{L\+I\+NE}}
+\index{L\+I\+NE@{L\+I\+NE}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{L\+I\+NE}{LINE}}
+{\footnotesize\ttfamily final String L\+I\+NE = \char`\"{}line\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a5453310696cdf739d8000dc04ed91618}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a5453310696cdf739d8000dc04ed91618}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!N\+A\+V\+ER@{N\+A\+V\+ER}}
+\index{N\+A\+V\+ER@{N\+A\+V\+ER}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{N\+A\+V\+ER}{NAVER}}
+{\footnotesize\ttfamily final String N\+A\+V\+ER = \char`\"{}naver\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a43e20142314d9728d15f5e18072cb8be}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_a43e20142314d9728d15f5e18072cb8be}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!P\+A\+Y\+CO@{P\+A\+Y\+CO}}
+\index{P\+A\+Y\+CO@{P\+A\+Y\+CO}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{P\+A\+Y\+CO}{PAYCO}}
+{\footnotesize\ttfamily final String P\+A\+Y\+CO = \char`\"{}payco\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_aa26a8100187d9ee0ebb8deb56c7df078}\label{interfacecom_1_1toast_1_1android_1_1gamebase_1_1base_1_1auth_1_1_auth_provider_aa26a8100187d9ee0ebb8deb56c7df078}} 
+\index{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}!T\+W\+I\+T\+T\+ER@{T\+W\+I\+T\+T\+ER}}
+\index{T\+W\+I\+T\+T\+ER@{T\+W\+I\+T\+T\+ER}!com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider@{com\+::toast\+::android\+::gamebase\+::base\+::auth\+::\+Auth\+Provider}}
+\subsubsection{\texorpdfstring{T\+W\+I\+T\+T\+ER}{TWITTER}}
+{\footnotesize\ttfamily final String T\+W\+I\+T\+T\+ER = \char`\"{}twitter\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+

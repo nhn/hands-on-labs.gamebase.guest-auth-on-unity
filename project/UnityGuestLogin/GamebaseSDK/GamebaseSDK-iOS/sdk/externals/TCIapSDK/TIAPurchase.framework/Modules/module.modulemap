@@ -1,0 +1,6 @@
+framework module TIAPurchase {
+  umbrella header "TIAPurchase.h"
+
+  export *
+  module * { export * }
+}

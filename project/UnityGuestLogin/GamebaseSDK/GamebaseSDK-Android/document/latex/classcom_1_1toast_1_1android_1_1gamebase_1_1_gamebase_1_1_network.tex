@@ -1,0 +1,131 @@
+\hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network}{}\section{Gamebase.\+Network Class Reference}
+\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network}\index{Gamebase.\+Network@{Gamebase.\+Network}}
+
+
+This class provides network status information.  
+
+
+
+
+Collaboration diagram for Gamebase.\+Network\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a794a5c628defa296e0feccd47fcd1113}{is\+Connected} ()
+\begin{DoxyCompactList}\small\item\em Indicates whether network connectivity exists and it is possible to establish connections and pass data. \end{DoxyCompactList}\item 
+static int \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a266dfc4b57f7c115e6323b37841f9f83}{get\+Type} ()
+\begin{DoxyCompactList}\small\item\em Reports the type of network to which the info in this Network\+Info pertains. \end{DoxyCompactList}\item 
+static String \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_afc9b9c5fd3623a1bc4efb56deab90dbf}{get\+Type\+Name} ()
+\begin{DoxyCompactList}\small\item\em Return a human-\/readable name describe the type of the network, for example \char`\"{}\+W\+I\+F\+I\char`\"{} or \char`\"{}\+M\+O\+B\+I\+L\+E\char`\"{}. \end{DoxyCompactList}\item 
+static boolean \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a787c04bc186b6be1c1edab693496a6cd}{add\+On\+Changed\+Status\+Listener} (final Network\+Manager.\+On\+Changed\+Status\+Listener listener)
+\begin{DoxyCompactList}\small\item\em Add the listener to be called when the network status is changed. \end{DoxyCompactList}\item 
+static boolean \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a295dcc9a385185370586734384c49c43}{remove\+On\+Changed\+Status\+Listener} (final Network\+Manager.\+On\+Changed\+Status\+Listener listener)
+\begin{DoxyCompactList}\small\item\em Remove the listener. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class provides network status information. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a787c04bc186b6be1c1edab693496a6cd}\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a787c04bc186b6be1c1edab693496a6cd}} 
+\index{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}!add\+On\+Changed\+Status\+Listener@{add\+On\+Changed\+Status\+Listener}}
+\index{add\+On\+Changed\+Status\+Listener@{add\+On\+Changed\+Status\+Listener}!com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}}
+\subsubsection{\texorpdfstring{add\+On\+Changed\+Status\+Listener()}{addOnChangedStatusListener()}}
+{\footnotesize\ttfamily static boolean add\+On\+Changed\+Status\+Listener (\begin{DoxyParamCaption}\item[{final Network\+Manager.\+On\+Changed\+Status\+Listener}]{listener }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Add the listener to be called when the network status is changed. 
+
+\begin{DoxySince}{Since}
+Added 1.\+4.\+0. 
+\end{DoxySince}
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & The listener to be invoked when the network status is changed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if listener registration succeeded, false otherwise. 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000006}{Deprecated}]As of release 1.\+8.\+0, use \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_a9079ec835df5660d8b19a1fd3eb0d9d8}{Gamebase\#add\+Observer(\+Observer)} method instead. \end{DoxyRefDesc}
+\mbox{\Hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a266dfc4b57f7c115e6323b37841f9f83}\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a266dfc4b57f7c115e6323b37841f9f83}} 
+\index{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}}
+\subsubsection{\texorpdfstring{get\+Type()}{getType()}}
+{\footnotesize\ttfamily static int get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Reports the type of network to which the info in this Network\+Info pertains. 
+
+\begin{DoxySince}{Since}
+Added 1.\+4.\+0. 
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+one of \hyperlink{}{Network\+Manager\#\+T\+Y\+P\+E\+\_\+\+N\+OT}, \hyperlink{}{Network\+Manager\#\+T\+Y\+P\+E\+\_\+\+M\+O\+B\+I\+LE}, ~\newline
+ \hyperlink{}{Network\+Manager\#\+T\+Y\+P\+E\+\_\+\+W\+I\+FI}, \hyperlink{}{Network\+Manager\#\+T\+Y\+P\+E\+\_\+\+A\+NY},~\newline
+ or other types defined by Network\+Manager. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_afc9b9c5fd3623a1bc4efb56deab90dbf}\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_afc9b9c5fd3623a1bc4efb56deab90dbf}} 
+\index{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}!get\+Type\+Name@{get\+Type\+Name}}
+\index{get\+Type\+Name@{get\+Type\+Name}!com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}}
+\subsubsection{\texorpdfstring{get\+Type\+Name()}{getTypeName()}}
+{\footnotesize\ttfamily static String get\+Type\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Return a human-\/readable name describe the type of the network, for example \char`\"{}\+W\+I\+F\+I\char`\"{} or \char`\"{}\+M\+O\+B\+I\+L\+E\char`\"{}. 
+
+\begin{DoxySince}{Since}
+Added 1.\+4.\+0. 
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+the name of the network type. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a794a5c628defa296e0feccd47fcd1113}\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a794a5c628defa296e0feccd47fcd1113}} 
+\index{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}!is\+Connected@{is\+Connected}}
+\index{is\+Connected@{is\+Connected}!com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}}
+\subsubsection{\texorpdfstring{is\+Connected()}{isConnected()}}
+{\footnotesize\ttfamily static boolean is\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Indicates whether network connectivity exists and it is possible to establish connections and pass data. 
+
+\begin{DoxySince}{Since}
+Added 1.\+4.\+0. 
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+true if network connectivity exists, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a295dcc9a385185370586734384c49c43}\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_network_a295dcc9a385185370586734384c49c43}} 
+\index{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}!remove\+On\+Changed\+Status\+Listener@{remove\+On\+Changed\+Status\+Listener}}
+\index{remove\+On\+Changed\+Status\+Listener@{remove\+On\+Changed\+Status\+Listener}!com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Network}}
+\subsubsection{\texorpdfstring{remove\+On\+Changed\+Status\+Listener()}{removeOnChangedStatusListener()}}
+{\footnotesize\ttfamily static boolean remove\+On\+Changed\+Status\+Listener (\begin{DoxyParamCaption}\item[{final Network\+Manager.\+On\+Changed\+Status\+Listener}]{listener }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove the listener. 
+
+\begin{DoxySince}{Since}
+Added 1.\+4.\+0. 
+\end{DoxySince}
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & The listener to be removed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if listener unregistration succeeded, false otherwise. 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000007}{Deprecated}]As of release 1.\+8.\+0, use \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_af13c08393910fc1b5dac3b5209f461c8}{Gamebase\#remove\+Observer(\+Observer)} method instead. \end{DoxyRefDesc}

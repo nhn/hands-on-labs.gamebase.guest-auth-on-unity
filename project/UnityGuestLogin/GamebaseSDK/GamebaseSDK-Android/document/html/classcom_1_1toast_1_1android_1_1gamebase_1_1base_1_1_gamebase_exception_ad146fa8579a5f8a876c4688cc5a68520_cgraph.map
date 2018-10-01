@@ -1,0 +1,8 @@
+<map id="toString" name="toString">
+<area shape="rect" id="node2" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#a58acf6402880e9769d79d8667581fa6a" title="toJsonString" alt="" coords="121,80,216,105"/>
+<area shape="rect" id="node3" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#a6b2a39146828e6b135949df810b8e052" title="toJson" alt="" coords="264,80,325,105"/>
+<area shape="rect" id="node4" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#a8facb1769856d29a5998bb90146fa5ef" title="Get result domain. " alt="" coords="402,5,488,31"/>
+<area shape="rect" id="node5" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#a8361b009dd85dd991e5e684d648ffabf" title="Get result code. " alt="" coords="409,55,481,80"/>
+<area shape="rect" id="node6" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#afafd068b736520af1e24269a284980a9" title="getMessage" alt="" coords="398,104,492,129"/>
+<area shape="rect" id="node7" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#a2db07ce4db851d795e5d61f772c4e9c0" title="Constructs a new GamebaseException. " alt="" coords="373,153,518,179"/>
+</map>

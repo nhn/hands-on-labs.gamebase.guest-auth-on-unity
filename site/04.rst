@@ -1,0 +1,44 @@
+###################
+Unity 프로젝트 생성
+###################
+
+Unity 프로젝트를 생성하고 Gamebase Setting Tool을 설치합니다.
+
+
+Unity 프로젝트 생성
+=====================
+
+
+1. Unity 실행
+2. GamebaseSample 이름으로 새 3D 프로젝트 생성
+
+
+Gamebase Setting Tool 설치
+================================
+
+TOAST를 이용한 설치
+---------------------
+
+1. Gamebase Setting Tool 패키지 다운로드
+    - http://docs.toast.com/ko/Download/#game-gamebase
+
+    .. image:: _static/image/download_settingtool.png
+
+2. 패키지 임포트
+    - **Menu > Assets > Import Package > Custom Package**
+    - GamebaseSettingTool_vx.x.x.unitypackage 선택
+    - Click **Import**
+
+
+Unity Asset Store를 이용한 설치
+--------------------------------
+
+1. Asset Store 실행 **Menu > Window > Asset Store**
+2. 검색창엡 이용해서 **Gamebase Setting Tool** 입력해서 Setting Tool 검색
+3. **Download** 클릭
+
+  .. tip:: 
+
+    - 최초 다운로드인 경우에만 노출
+
+4. **Import** 클릭

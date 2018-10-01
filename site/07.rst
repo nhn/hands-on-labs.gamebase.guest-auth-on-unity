@@ -1,0 +1,84 @@
+################
+Unity 설정
+################
+
+샘플 패키지 임포트
+=====================
+
+1. Menu > Assets > Import Package > Custom Package
+2. **gamebase_unity_guest_login.unitypackage** 선택
+
+
+Android Player 설정
+========================
+
+1. Android 앱 빌드 설정
+    * **Menu > File > Build Settings** 클릭
+    * Android 플랫폼 선택
+    * **Switch Platform** 클릭
+    * **Build System** 항목에서 Internal 선택
+2. 빌드 씬 추가
+    * **Assets > Gamebase-Guest-Sample > Scene > Sample.scene** 파일을 **Scenes In Build** 영역에 드래그 앤 드랍 
+
+    .. image:: _static/image/unity-build-scene.png
+        :scale: 50%
+
+3. PlayerSettings 설정
+  
+  Build Settings 윈도우에서 좌측 하단 **Player Settings** 클릭. 또는 Menu > Edit > Project Settings > Player
+
+    * Company Name 입력 : nhnent
+    * Product Name 입력 : GamebaseGuest
+    * Default Icon 선택 : Assets/Gamebase-Guest-Sample/Images/icon.png
+
+        .. image:: _static/image/unity_player_settings.png
+            :scale: 50%
+
+    * **Resolution and Presention** 패널 클릭
+        * **Defautl Orientation** 항목에서 Landscape Left로 설정
+    * **Other Settings** 패널 클릭
+        * **Bundle identifier** 입력 : com.nhnent.gamebaseguest
+    * **Publishing Settings** 패널 클릭
+        * **Use Existing Keystore** 체크
+        * **Browse Keystore** 클릭 후 Android Studio 또는 Android SDK 설치 폴더에서 **keystore** 선택
+            - Windows : **C:\Users\<USERNAME>\.android\debug.keystore**
+
+            - Mac/Linux : **$HOME/.android/debug.keystore**
+
+        .. tip:: 
+
+            - debug.keystore가 없거나 새로 만들고 싶은 경우에는 위 설명의 경로에 .android 폴더를 만들고 해당 폴더에서 다음 command를 실행하세요.
+
+            - keytool -genkeypair -alias androiddebugkey -keypass android -keystore debug.keystore -storepass android -dname "CN=Android Debug,O=Android,C=US" -validity 9999
+    
+        * **keystore password** 입력 : android
+        * **Alias** 선택 : androiddebugkey
+        * **Password** 입력 : android
+
+        .. image:: _static/image/unity-build-resolution.png
+            :scale: 50%
+
+        .. image:: _static/image/unity-build-bundleid.png
+            :scale: 50%
+
+        .. image:: _static/image/unity-build-publishing.png
+            :scale: 50%
+
+
+Build & Run
+==================
+
+1. Android 디바이스 연결
+2. **Menu > File > Build & Run**
+3. APK 파일 이름 지정 팝업이 뜰 경우 **gamebase-guest.apk** 로 설정
+4. 디바이스에서 실행 확인
+
+
+Troubleshooting
+==================
+
+1. UnityException: Can not sign the application Unable to sign the application; please provide passwords!
+    * 위 PlayerSettings 설정에서 [Keystore] 내용을 참고해서 설정하시기 바랍니다.
+
+2. 실행하면 Unity Splash 이미지만 보이는 경우
+    * 빌드에 씬 추가가 안 되어 있어서 그렇습니다. [빌드 씬 추가] 부분을 참고하시기 바랍니다.

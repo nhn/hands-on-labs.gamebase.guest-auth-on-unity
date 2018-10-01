@@ -1,0 +1,40 @@
+****
+개요
+****
+
+Gamebase SDK를 이용해서 Guest 로그인 하는 방법에 대해서 셜명 드립니다.
+
+학습할 내용
+============
+
+* Gamebase console에서 프로젝트 생성하기
+* Gamebase Setting Tool을 이용해서 Gamebase SDK 설치하기
+* Unity 프로젝트에서 Gamebase 설정하기
+* Gamebase Initialize
+* Gamebase Guest Login
+* Gamebase Logout
+
+준비물
+===========
+
+* Unity 5.5.4 이상
+* TOAST 계정
+
+  * `TOAST 회원가입 <https://toast.com/>`_
+
+* 안드로이드 디바이스
+
+  * OS : 4.0.3 이상
+
+  * 디바이스와 PC 연결 케이블
+
+* Android SDK
+  
+  * `Android SDK 다운로드 <https://developer.android.com/studio/>`_
+
+* Unity 실행환경에서 Android SDK 사용하도록 설정
+  
+  * `Unity Manual 확인 <https://docs.unity3d.com/Manual/android-sdksetup.html>`_
+
+
+

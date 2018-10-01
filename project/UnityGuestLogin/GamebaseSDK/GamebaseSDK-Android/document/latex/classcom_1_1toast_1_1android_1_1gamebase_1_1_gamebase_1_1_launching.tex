@@ -1,0 +1,123 @@
+\hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching}{}\section{Gamebase.\+Launching Class Reference}
+\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching}\index{Gamebase.\+Launching@{Gamebase.\+Launching}}
+
+
+This class is provided to check information such as launch information, status, and so on.  
+
+
+
+
+Collaboration diagram for Gamebase.\+Launching\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1launching_1_1data_1_1_launching_info}{Launching\+Info} \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a93ab4a06b72866dace784957cbf218c0}{get\+Launching\+Informations} ()
+\begin{DoxyCompactList}\small\item\em Get various information provided by the launching server. \end{DoxyCompactList}\item 
+static int \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a279d78644ff42918857fcb056a38ff49}{get\+Launching\+Status} ()
+\begin{DoxyCompactList}\small\item\em Gets the launching state. \end{DoxyCompactList}\item 
+static boolean \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a1588ac604f55b5bb65c9748080b66e3f}{add\+On\+Update\+Status\+Listener} (final Launching\+On\+Update\+Listener listener)
+\begin{DoxyCompactList}\small\item\em Add a callback to be invoked when launching status is changed. \end{DoxyCompactList}\item 
+static boolean \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a2a6cf9c9ff4df6e6e91a3225e6291db7}{remove\+On\+Update\+Status\+Listener} (final Launching\+On\+Update\+Listener listener)
+\begin{DoxyCompactList}\small\item\em Remove a callback to be invoked when launching status is changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class is provided to check information such as launch information, status, and so on. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a1588ac604f55b5bb65c9748080b66e3f}\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a1588ac604f55b5bb65c9748080b66e3f}} 
+\index{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching}!add\+On\+Update\+Status\+Listener@{add\+On\+Update\+Status\+Listener}}
+\index{add\+On\+Update\+Status\+Listener@{add\+On\+Update\+Status\+Listener}!com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching}}
+\subsubsection{\texorpdfstring{add\+On\+Update\+Status\+Listener()}{addOnUpdateStatusListener()}}
+{\footnotesize\ttfamily static boolean add\+On\+Update\+Status\+Listener (\begin{DoxyParamCaption}\item[{final Launching\+On\+Update\+Listener}]{listener }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Add a callback to be invoked when launching status is changed. 
+
+\begin{DoxySince}{Since}
+Added 1.\+4.\+0. 
+\end{DoxySince}
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & The callback that will run. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{}{com.\+toast.\+android.\+gamebase.\+launching.\+Launching\+On\+Update\+Listener}. 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+True if listener registration succeeded, false otherwise. 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000003}{Deprecated}]As of release 1.\+8.\+0, use \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_a9079ec835df5660d8b19a1fd3eb0d9d8}{Gamebase\#add\+Observer(\+Observer)} method instead. \end{DoxyRefDesc}
+\mbox{\Hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a93ab4a06b72866dace784957cbf218c0}\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a93ab4a06b72866dace784957cbf218c0}} 
+\index{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching}!get\+Launching\+Informations@{get\+Launching\+Informations}}
+\index{get\+Launching\+Informations@{get\+Launching\+Informations}!com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching}}
+\subsubsection{\texorpdfstring{get\+Launching\+Informations()}{getLaunchingInformations()}}
+{\footnotesize\ttfamily static \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1launching_1_1data_1_1_launching_info}{Launching\+Info} get\+Launching\+Informations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Get various information provided by the launching server. 
+
+\begin{DoxySince}{Since}
+Added 1.\+4.\+0. 
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+The \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching}{Launching} information. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1launching_1_1data_1_1_launching_info}{com.\+toast.\+android.\+gamebase.\+launching.\+data.\+Launching\+Info}. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a279d78644ff42918857fcb056a38ff49}\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a279d78644ff42918857fcb056a38ff49}} 
+\index{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching}!get\+Launching\+Status@{get\+Launching\+Status}}
+\index{get\+Launching\+Status@{get\+Launching\+Status}!com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching}}
+\subsubsection{\texorpdfstring{get\+Launching\+Status()}{getLaunchingStatus()}}
+{\footnotesize\ttfamily static int get\+Launching\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Gets the launching state. 
+
+\begin{DoxySince}{Since}
+Added 1.\+4.\+0. 
+\end{DoxySince}
+\begin{DoxyReturn}{Returns}
+The launching status. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1launching_1_1data_1_1_launching_status}{com.\+toast.\+android.\+gamebase.\+launching.\+data.\+Launching\+Status}. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a2a6cf9c9ff4df6e6e91a3225e6291db7}\label{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_1_1_launching_a2a6cf9c9ff4df6e6e91a3225e6291db7}} 
+\index{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching}!remove\+On\+Update\+Status\+Listener@{remove\+On\+Update\+Status\+Listener}}
+\index{remove\+On\+Update\+Status\+Listener@{remove\+On\+Update\+Status\+Listener}!com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching@{com\+::toast\+::android\+::gamebase\+::\+Gamebase\+::\+Launching}}
+\subsubsection{\texorpdfstring{remove\+On\+Update\+Status\+Listener()}{removeOnUpdateStatusListener()}}
+{\footnotesize\ttfamily static boolean remove\+On\+Update\+Status\+Listener (\begin{DoxyParamCaption}\item[{final Launching\+On\+Update\+Listener}]{listener }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove a callback to be invoked when launching status is changed. 
+
+\begin{DoxySince}{Since}
+Added 1.\+4.\+0. 
+\end{DoxySince}
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & The callback that will removed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{}{com.\+toast.\+android.\+gamebase.\+launching.\+Launching\+On\+Update\+Listener}. 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+True if listener unregistration succeeded, false otherwise. 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000004}{Deprecated}]As of release 1.\+8.\+0, use \hyperlink{classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase_af13c08393910fc1b5dac3b5209f461c8}{Gamebase\#remove\+Observer(\+Observer)} method instead. \end{DoxyRefDesc}

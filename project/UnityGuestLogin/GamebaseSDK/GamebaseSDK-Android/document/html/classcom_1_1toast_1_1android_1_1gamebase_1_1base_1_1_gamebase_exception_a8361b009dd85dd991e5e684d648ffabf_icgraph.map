@@ -1,0 +1,7 @@
+<map id="getCode" name="getCode">
+<area shape="rect" id="node2" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#a6b2a39146828e6b135949df810b8e052" title="toJson" alt="" coords="193,29,254,55"/>
+<area shape="rect" id="node6" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1_gamebase.html#adec8e86d913bbdb88df6244f7aec6f2a" title="Returns true if the GamebaseException object is null or the error code is zero. " alt="" coords="125,79,322,117"/>
+<area shape="rect" id="node3" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#a58acf6402880e9769d79d8667581fa6a" title="toJsonString" alt="" coords="387,5,483,31"/>
+<area shape="rect" id="node5" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#a054431f3d988a22295cfc8b784ff2637" title="toPrettyJsonString" alt="" coords="370,55,500,80"/>
+<area shape="rect" id="node4" href="$classcom_1_1toast_1_1android_1_1gamebase_1_1base_1_1_gamebase_exception.html#ad146fa8579a5f8a876c4688cc5a68520" title="toString" alt="" coords="548,5,616,31"/>
+</map>
