@@ -30,7 +30,8 @@ Gamebase 서비스 활성화
     - 클라이언트 버전 : 1.0.0
     - 서비스 상태 : 테스트
     - 서버 주소 : 빈 값
-    .. image:: _static/image/console_android_app.png
+        .. image:: _static/image/console_android_app.png
+
 
 
 
