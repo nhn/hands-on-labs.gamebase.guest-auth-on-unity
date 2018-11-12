@@ -17,7 +17,14 @@ Gamebase SDK를 이용해서 Guest 로그인 하는 방법에 대해서 셜명 �
 준비물
 ===========
 
+* Unity 계정
+
+  * `Unity 회원가입 <https://unity3d.com>`_
+
 * Unity 5.5.4 이상
+
+  * Android Build Support 설치 필요
+
 * TOAST 계정
 
   * `TOAST 회원가입 <https://toast.com/>`_
@@ -27,6 +34,8 @@ Gamebase SDK를 이용해서 Guest 로그인 하는 방법에 대해서 셜명 �
   * OS : 4.0.3 이상
 
   * 디바이스와 PC 연결 케이블
+
+  * 디바이스 드라이버 설치
 
 * Android SDK
   

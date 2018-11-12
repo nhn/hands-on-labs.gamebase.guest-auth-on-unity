@@ -3,17 +3,6 @@ Gamebase 설정
 #######################
 
 
-Game Object 생성
-=========================
-
-* Hierarchy Window > 우클릭 > Create Empty 
-    * Name : GamebaseSetting
-* Inspector Window > Add Component : Gamebase Unity SDK Settings
-    
-.. image:: _static/image/unity_gamebase_object.png
-    :scale: 50%
-
-
 Inspector 설정
 =========================
 

@@ -7,7 +7,14 @@ Unity 설정
 
 1. Menu > Assets > Import Package > Custom Package
 2. **gamebase_unity_guest_login.unitypackage** 선택
+3. Import 클릭
 
+씬 이동
+========================
+
+* 샘플 패키지에서 제공되는 씬으로 이동
+
+  * **Project View > Assets > Gamebase-Guest-Sample > Scene > Sample.scene** 파일 더블클릭.
 
 Android Player 설정
 ========================
@@ -18,7 +25,11 @@ Android Player 설정
     * **Switch Platform** 클릭
     * **Build System** 항목에서 Internal 선택
 2. 빌드 씬 추가
-    * **Assets > Gamebase-Guest-Sample > Scene > Sample.scene** 파일을 **Scenes In Build** 영역에 드래그 앤 드랍 
+    * **Project View > Assets > Gamebase-Guest-Sample > Scene > Sample.scene** 파일을 **Scenes In Build** 영역에 드래그 앤 드랍 
+    * 첫 번째 목록으로 추가하셔야 합니다.
+
+    .. image:: _static/image/unity-add-scene.gif
+        :scale: 50%
 
     .. image:: _static/image/unity-build-scene.png
         :scale: 50%
@@ -37,11 +48,11 @@ Android Player 설정
     * **Resolution and Presention** 패널 클릭
         * **Defautl Orientation** 항목에서 Landscape Left로 설정
     * **Other Settings** 패널 클릭
-        * **Bundle identifier** 입력 : com.nhnent.gamebaseguest
+        * **Bundle identifier(또는 Package Name)** 입력 : com.nhnent.gamebaseguest
     * **Publishing Settings** 패널 클릭
         * **Use Existing Keystore** 체크
         * **Browse Keystore** 클릭 후 Android Studio 또는 Android SDK 설치 폴더에서 **keystore** 선택
-            - Windows : **C:\Users\<USERNAME>\.android\debug.keystore**
+            - Windows : **C:\\Users\\<USERNAME>\\.android\\debug.keystore**
 
             - Mac/Linux : **$HOME/.android/debug.keystore**
 
