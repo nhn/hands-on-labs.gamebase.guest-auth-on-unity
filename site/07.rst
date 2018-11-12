@@ -31,9 +31,6 @@ Android Player 설정
     .. image:: _static/image/unity-add-scene.gif
         :scale: 50%
 
-    .. image:: _static/image/unity-build-scene.png
-        :scale: 50%
-
 3. PlayerSettings 설정
   
   Build Settings 윈도우에서 좌측 하단 **Player Settings** 클릭. 또는 Menu > Edit > Project Settings > Player
