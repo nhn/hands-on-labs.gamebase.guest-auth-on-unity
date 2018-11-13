@@ -11,16 +11,10 @@ Assets/Gamebase-Guest-Sample/Prefabs/ 폴더에서 InitButton, Status prefab 파
 .. image:: _static/image/unity_add_initbutton_status.gif
     :scale: 50%
 
-Game Object 생성
+Text Object 연결
 =========================
 
-* Hierarchy Window > 우클릭 > Create Empty 
-    * Name : GamebaseSample
-* Inspector Window > Add Component : Gamebase Guest Sample
-    
-.. image:: _static/image/unity_sample_object.png
-    :scale: 50%
-
+* Hierarchy Window > GamebaseSample 클릭
 * Status Text 연결
 
 .. image:: _static/image/connect_status.gif
