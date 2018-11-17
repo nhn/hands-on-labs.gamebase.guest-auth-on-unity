@@ -5,11 +5,11 @@ Gamebase Guest Login for Unity Android
 * 카테고리: API 
 * 레벨: 초급
 * 시간: 50분
-* 업데이트: 2018.08.16
+* 업데이트: 2018.11.19.
 
 
 .. toctree:: 
-   :maxdepth: 2
+   :maxdepth: 1
    :numbered:
    
    01

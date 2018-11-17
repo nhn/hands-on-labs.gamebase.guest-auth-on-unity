@@ -18,32 +18,22 @@ Gamebase SDK를 이용해서 Guest 로그인 하는 방법에 대해서 셜명 �
 ===========
 
 * Unity 계정
-
-  * `Unity 회원가입 <https://unity3d.com>`_
-
+    * `Unity 회원가입 <https://unity3d.com>`_
 * Unity 5.5.4 이상
-
-  * Android Build Support 설치 필요
-
+    * Android Build Support 설치 필요
 * TOAST 계정
-
-  * `TOAST 회원가입 <https://toast.com/>`_
-
+    * `TOAST 회원가입 <https://toast.com/>`_
 * 안드로이드 디바이스
-
-  * OS : 4.0.3 이상
-
-  * 디바이스와 PC 연결 케이블
-
-  * 디바이스 드라이버 설치
-
+    * OS: 4.0.3 이상
+    * 디바이스와 PC 연결 케이블
+    * 디바이스 드라이버 설치
 * Android SDK
-  
-  * `Android SDK 다운로드 <https://developer.android.com/studio/>`_
-
+    * `Android SDK 다운로드 <https://developer.android.com/studio/>`_
 * Unity 실행환경에서 Android SDK 사용하도록 설정
-  
-  * `Unity Manual 확인 <https://docs.unity3d.com/Manual/android-sdksetup.html>`_
+    * `Unity Manual 확인 <https://docs.unity3d.com/Manual/android-sdksetup.html>`_
 
 
+소스 코드
+=========
 
+* https://github.com/nhnent/hands-on-labs.gamebase.guest-auth-on-unity
