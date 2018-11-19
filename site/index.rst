@@ -4,7 +4,7 @@ Gamebase Guest Login for Unity Android
 
 * 카테고리: API 
 * 레벨: 초급
-* 시간: 50분
+* 시간: 15분
 * 업데이트: 2018.11.19.
 
 
