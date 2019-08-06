@@ -1,3 +1,5 @@
+.. _AndroidManifest:
+
 #######################
 Android Manifest 설정
 #######################
@@ -12,8 +14,8 @@ AndroidManifest 파일 복사
 AndroidManifest 파일 수정
 ===========================
 
-* package name 변경: com.nhnent.gamebaseguest
-* activity name 변경 : com.toast.gamebase.activity.GamebaseMainActivity
+* package name 변경: com.nhn.gamebaseguest
+* activity name 변경 : com.toast.android.gamebase.activity.GamebaseMainActivity
 
 .. image:: _static/image/androidmanifest.png
     :scale: 50%

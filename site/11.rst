@@ -33,7 +33,7 @@ Guest Login 구현
     {
         Gamebase.Login(GamebaseAuthProvider.GUEST, (authToken, error) =>
         {
-            if (true == Gamebase.IsSuccess(error))
+            if (Gamebase.IsSuccess(error) == true)
             {
                 statusText.text = string.Format("Guest login succeeded. User id is {0}", authToken.member.userId);
             }

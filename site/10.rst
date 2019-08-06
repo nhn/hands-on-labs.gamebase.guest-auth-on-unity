@@ -40,11 +40,11 @@ Initialize 구현
     {
         Gamebase.Initialize((launchingInfo, error) =>
         {
-            if (true == Gamebase.IsSuccess(error))
+            if (Gamebase.IsSuccess(error) == true)
             {
                 statusText.text = "Gamebase initialization is succeeded.";
 
-                if (true == IsPlayable(launchingInfo.launching.status.code))
+                if (IsPlayable(launchingInfo.launching.status.code) == true)
                 {
                     statusText.text += " Playable";
                 }
@@ -81,3 +81,8 @@ Troubleshooting
 Initialze 중 오류가 발생할 경우 다음 문서를 참고하시기 바랍니다.
 
 * `Error Handling <http://docs.toast.com/ko/Game/Gamebase/ko/unity-initialization/#error-handling>`_ 
+
+
+.. tip::
+
+    - Error Code = 32인 경우에는, :ref:`AndroidManifest` 내용을 다시 확인하시기 바랍니다.
