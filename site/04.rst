@@ -10,7 +10,7 @@ Unity 프로젝트 생성
 
 
 1. Unity 실행
-2. GamebaseSample 이름으로 새 3D 프로젝트 생성
+2. HandsOnLab 이름으로 새 3D 프로젝트 생성
 
 
 Gamebase Setting Tool 설치

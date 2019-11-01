@@ -11,7 +11,7 @@ Gamebase를 사용하기 위해서 Conslole에서 프로젝트를 생성합니�
     - https://console.toast.com
 
 2. TOAST Console 상단 대시보드에서 새 프로젝트 생성
-    - 프로젝트 이름 : GamebaseSample
+    - 프로젝트 이름 : HandsOnLab
     - 프로젝트 설명 : Sample for Gamebase
 
 

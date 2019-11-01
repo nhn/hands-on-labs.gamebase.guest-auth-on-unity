@@ -14,7 +14,7 @@ AndroidManifest 파일 복사
 AndroidManifest 파일 수정
 ===========================
 
-* package name 변경: com.nhn.gamebaseguest
+* package name 변경: com.nhn.handsonlab
 * activity name 변경 : com.toast.android.gamebase.activity.GamebaseMainActivity
 
 .. image:: _static/image/androidmanifest.png

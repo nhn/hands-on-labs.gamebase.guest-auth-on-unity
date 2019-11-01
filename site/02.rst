@@ -2,4 +2,4 @@
 샘플 코드
 ######################
 
-`gamebase_unity_guest_login.unitypackage 다운로드 <http://static.toastoven.net/toastcloud/sdk_download/gamebase/HandsonLab/Unity/gamebase_unity_guest_login.unitypackage>`_
+`gamebase_unity_authenticate_sample.unitypackage 다운로드 <http://static.toastoven.net/toastcloud/sdk_download/gamebase/HandsonLab/Unity/gamebase_unity_authenticate_sample.unitypackage>`_

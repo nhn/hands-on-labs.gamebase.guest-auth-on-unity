@@ -57,9 +57,9 @@ source_encoding = 'utf-8'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Gamebase Guest Login for Unity Android'
-copyright = 'NHN Corp. All rights reserved.'
-author = ''
+project = 'Gamebase Authenticate for Unity Android'
+copyright = 'NHN'
+author = 'sbs'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -137,6 +137,12 @@ html_theme = 'sphinx_rtd_theme'
 #
 html_theme_options = {
     'display_version': False,
+}
+
+html_context = {
+    'css_files': ['_static/css/custom.css'],
+    'script_files': ['_static/jquery.js', '_static/underscore.js', 
+    '_static/doctools.js', '_static/translations.js', '_static/js/custom.js'],
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -349,5 +355,3 @@ texinfo_documents = [
 #
 # texinfo_no_detailmenu = False
 
-def setup(app):
-    app.add_stylesheet('css/custom.css')

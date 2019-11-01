@@ -44,9 +44,3 @@ Gamebase SDK를 이용해서 Guest 로그인 하는 방법에 대해서 셜명 �
 * Unity 실행환경에서 Android SDK 사용하도록 설정
   
   * `Unity Manual 확인 <https://docs.unity3d.com/Manual/android-sdksetup.html>`_
-
-
-소스 코드
-=========
-
-* https://github.com/nhnent/hands-on-labs.gamebase.guest-auth-on-unity

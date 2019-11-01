@@ -2,34 +2,14 @@
 Gamebase Logout
 #######################
 
-
-UI 추가
-===============================
-
-Assets/Gamebase-Guest-Sample/Prefabs/Logout.prefab 파일을 Hierarchy Window의 Guest 하위로 드래그 앤 드롭
-
-.. image:: _static/image/unity_add_logout_button.gif
-    :scale: 50%
-
-
-LogoutButton Event 설정
-===============================
-
-* LogoutButton OnClick() 이벤트를 GamebaseSample.GamebaseLogout() 함수가 받도록 설정
-
-.. image:: _static/image/unity_logout_button_event.gif
-    :scale: 50%
-
-
-
 Logout 구현
 ===============================
 
-* Assets/Gamebase-Guest-Sample/Script/GamebaseGuestSample.cs 파일의 GamebaseLogout() 함수에 다음과 같이 코드 입력
+* Assets/TOAST/HandsOnLab/Gamebase/Authentication/Script/Authentication/GamebaseAuthenticateSample.cs 파일의 OnLogout() 함수에 다음과 같이 코드 입력
 
 .. code-block:: C#
 
-    public void GamebaseLogout()
+    public void OnLogout()
     {
         Gamebase.Logout((error) =>
         {
@@ -52,14 +32,13 @@ Menu > File > Save Project
 
 1. Android 디바이스 연결
 2. **Menu > File > Build & Run**
-3. APK 파일 이름 지정 팝업이 뜰 경우 **gamebase-guest.apk** 로 설정
+3. APK 파일 이름 지정 팝업이 뜰 경우 **gamebase-handsonlab.apk** 로 설정
 4. 디바이스에서 실행 확인
 5. **Initialize** 버튼 클릭 후 Initialize 성공 확인
-6. **Guest Login** 버튼 클릭 후 Login 성공 확인
+6. **Login** 버튼 클릭 후 Login 성공 확인
 7. **Logout** 버튼 클릭 후 Logout 성공 확인
 
-.. image:: _static/image/run_logout.png
-    :scale: 50%
+.. image:: _static/image/run_ui.png
 
 
 Troubleshooting
