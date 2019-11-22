@@ -1,27 +1,22 @@
+.. _AndroidManifest:
+
 #######################
-Gamebase 설정
+Android Manifest 설정
 #######################
 
 
-Inspector 설정
-=========================
+AndroidManifest 파일 복사
+===========================
 
-Gamebase Console 값을 참고해서 다음 값들을 셋팅합니다.
+* 소스 경로 : {Unity 설치 폴더}/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/AndroidManifest.xml 
+* 대상 경로 : {Project Root}/Assets/Plugins/Android/AndroidManifest.xml
 
-* Hierarchy Window > GamebaseSetting 클릭
-* Inspector Window
-    * App ID 입력
-    * App Version 입력
+AndroidManifest 파일 수정
+===========================
 
-.. image:: _static/image/console_app_id.png
+* package name 변경: com.nhn.handsonlab
+* activity name 변경 : com.toast.android.gamebase.activity.GamebaseMainActivity
+
+.. image:: _static/image/androidmanifest.png
     :scale: 50%
-
-.. image:: _static/image/console_app_version.png
-    :scale: 50%
-
-.. image:: _static/image/unity_app_setting.png
-    :scale: 50%
-
-
-
 

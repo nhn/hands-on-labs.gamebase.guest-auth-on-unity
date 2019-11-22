@@ -14,7 +14,7 @@ Unity 설정
 
 * 샘플 패키지에서 제공되는 씬으로 이동
 
-  * **Project View > Assets > TOAST > HandsOnLab > Gamebase > Authentication > Scene > AuthenticateSample.scene** 파일 더블클릭.
+  * **Project View > Assets > TOAST > Codelab > Gamebase > Scene > AuthenticationSample.scene** 파일 더블클릭.
 
 Android Player 설정
 ========================
@@ -30,7 +30,7 @@ Android Player 설정
           - 2019.1.0부터 Internal Build System을 지원하지 않기 때문에 별도로 설정할 필요는 없습니다.
 
 2. 빌드 씬 추가
-    * **Project View > Assets > HandsOnLab > Sample > Authentication > Scene > AuthenticateSample.scene** 파일을 **Scenes In Build** 영역에 드래그 앤 드랍 
+    * **Project View > Assets > TOAST > Codelab > Gamebase > Scene > AuthenticationSample.scene** 파일을 **Scenes In Build** 영역에 드래그 앤 드랍 
     * 첫 번째 목록으로 추가하셔야 합니다.
 
     .. image:: _static/image/unity-add-scene.gif
@@ -42,7 +42,7 @@ Android Player 설정
 
   * Company Name 입력 : nhn
   * Product Name 입력 : HandsOnLab
-  * Default Icon 선택 : Assets/TOAST/HandsOnLab/Resources/Images/Icon/icon.png
+  * Default Icon 선택 : Assets/TOAST/Codelab/Resources/Images/Icon/icon.png
 
       .. image:: _static/image/unity_player_settings.png
           :scale: 50%
