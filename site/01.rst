@@ -21,7 +21,7 @@ Gamebase SDK를 이용해서 Guest 로그인 하는 방법에 대해서 셜명 �
 
   * `Unity 회원가입 <https://unity3d.com>`_
 
-* Unity 5.6.6 이상
+* Unity 2017.4.16 이상
 
   * Android Build Support 설치 필요
 

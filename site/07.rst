@@ -6,7 +6,7 @@ Unity 설정
 =====================
 
 1. Menu > Assets > Import Package > Custom Package
-2. **gamebase_unity_authenticate_sample.unitypackage** 선택
+2. **Codelab-GamebaseHandsOnLab.unitypackage** 선택
 3. Import 클릭
 
 씬 이동
@@ -14,7 +14,7 @@ Unity 설정
 
 * 샘플 패키지에서 제공되는 씬으로 이동
 
-  * **Project View > Assets > TOAST > Codelab > Gamebase > Scene > AuthenticationSample.scene** 파일 더블클릭.
+  * **Project View > Assets > TOAST > Codelab > Gamebase > Scene > HandsOnLabSample.scene** 파일 더블클릭.
 
 Android Player 설정
 ========================
@@ -30,10 +30,10 @@ Android Player 설정
           - 2019.1.0부터 Internal Build System을 지원하지 않기 때문에 별도로 설정할 필요는 없습니다.
 
 2. 빌드 씬 추가
-    * **Project View > Assets > TOAST > Codelab > Gamebase > Scene > AuthenticationSample.scene** 파일을 **Scenes In Build** 영역에 드래그 앤 드랍 
+    * **Project View > Assets > TOAST > Codelab > Gamebase > Scene > HandsOnLabSample.scene** 파일을 **Scenes In Build** 영역에 드래그 앤 드랍 
     * 첫 번째 목록으로 추가하셔야 합니다.
 
-    .. image:: _static/image/unity-add-scene.gif
+    .. image:: _static/image/unity-add-scene.png
         :scale: 50%
 
 3. PlayerSettings 설정
@@ -54,7 +54,7 @@ Android Player 설정
   * **Keystore** 설정
 
     .. tip::        
-          - Unity 5.6.6을 기준으로 작성되었습니다.
+          - Unity 2017.4.16을 기준으로 작성되었습니다.
 
     .. image:: _static/image/keystore1_1.png
           :scale: 50%
@@ -97,6 +97,16 @@ Android Player 설정
 
         * Country Code 입력 : ko
 
+
+SHA-1 확인 방법
+==================
+
+.. tip::        
+    - JDK bin 폴더가 환경변수->시스템변수->Path에 추가 되어 있어야 합니다.
+    - keystore 파일이 있는 폴더에서 확인이 가능합니다.
+
+cmd에서 아래 명령어를 입력해 줍니다.
+    * keytool -list -v -keystore handsonlab.keystore
 
 Build & Run
 ==================

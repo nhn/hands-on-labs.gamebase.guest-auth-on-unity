@@ -5,21 +5,21 @@ Gamebase Guest Login
 Guest Login 구현
 ===============================
 
-* Assets/TOAST/Codelab/Gamebase/Scripts/Authentication/Sample.cs 파일의 OnLogin() 함수에 다음과 같이 코드 입력
+* Assets/TOAST/Codelab/Gamebase/Scripts/HandsOnLab/UserImplementation.cs 파일의 Login() 함수에 다음과 같이 코드 입력
 
 .. code-block:: C#
 
-    public void OnLogin()
+    public void Login()
     {
         Gamebase.Login(GamebaseAuthProvider.GUEST, (authToken, error) =>
         {
             if (Gamebase.IsSuccess(error) == true)
             {
-                statusText.text = string.Format("Guest login succeeded. User id is {0}", authToken.member.userId);
+                SampleLogger.Log(string.Format("Guest login succeeded. User id is {0}", authToken.member.userId));
             }
             else
             {
-                statusText.text = string.Format("Guest login failed. Error is {0}", error.ToString());
+                SampleLogger.Log(string.Format("Guest login failed. Error is {0}", error.ToString()));
             }
         });
     }
@@ -39,6 +39,7 @@ Menu > File > Save Project
 6. **Login** 버튼 클릭 후 로그인 성공 확인
 
 .. image:: _static/image/run_ui.png
+    :scale: 50%
 
 
 Troubleshooting

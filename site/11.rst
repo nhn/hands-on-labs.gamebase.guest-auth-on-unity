@@ -5,21 +5,21 @@ Gamebase Logout
 Logout 구현
 ===============================
 
-* Assets/TOAST/Codelab/Gamebase/Scripts/Authentication/Sample.cs 파일의 OnLogout() 함수에 다음과 같이 코드 입력
+* Assets/TOAST/Codelab/Gamebase/Scripts/HandsOnLab/UserImplementation.cs 파일의 Logout() 함수에 다음과 같이 코드 입력
 
 .. code-block:: C#
 
-    public void OnLogout()
+    public void Logout()
     {
         Gamebase.Logout((error) =>
         {
             if (Gamebase.IsSuccess(error) == true)
             {
-                statusText.text = "Logout succeeded.";
+                SampleLogger.Log("Logout succeeded.");
             }
             else
             {
-                statusText.text = string.Format("Logout failed. Error is {0}", error.ToString());
+                SampleLogger.Log(string.Format("Logout failed. Error is {0}", error.ToString()));
             }
         });
     }
@@ -39,6 +39,7 @@ Menu > File > Save Project
 7. **Logout** 버튼 클릭 후 Logout 성공 확인
 
 .. image:: _static/image/run_ui.png
+    :scale: 50%
 
 
 Troubleshooting
