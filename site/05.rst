@@ -1,24 +1,58 @@
 #######################
-Gamebase SDK 다운로드
+Android Manifest 설정
 #######################
 
-Setting Tool을 통해서 Gamebase SDK를 다운로드합니다.
+AndroidManifest 파일 복사
+===========================
 
-Setting Tool 실행
-=======================
+* 소스 경로: {Unity 설치 폴더}/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/
+* 대상 경로: {Project Root}/Assets/Plugins/Android/
 
-* **Menu > Tools > TOAST > Gamebase > Setting Tool > Settings**
+  .. image:: _static/image/androidmanifest.png
+
+.. tip::        
+  * 소스 경로에서 AndroidManifest.xml 파일을 찾기 힘드신 분은 대상 경로에 androidmanifest.xml 파일 생성 후, 아래 코드를 복사하십시오.
+
+AndroidManifest 파일 수정
+===========================
+
+* package name 변경: com.nhn.handsonlab
+* activity name 변경 : com.toast.android.gamebase.activity.GamebaseMainActivity
+
+.. code-block:: C#
+
+  <?xml version="1.0" encoding="utf-8"?>
+  <manifest
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      // package name 변경
+      package="com.nhn.handsonlab"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:installLocation="preferExternal">
+      <supports-screens
+          android:smallScreens="true"
+          android:normalScreens="true"
+          android:largeScreens="true"
+          android:xlargeScreens="true"
+          android:anyDensity="true"/>
+  
+      <application
+          android:theme="@style/UnityThemeSelector"
+          android:icon="@mipmap/app_icon"
+          android:label="@string/app_name">
+          // activity name 변경
+          <activity android:name="com.toast.android.gamebase.activity.GamebaseMainActivity"
+                    android:label="@string/app_name">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+              <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+          </activity>
+      </application>
+  </manifest>
 
 
-Gamebase SDK 다운로드
-=======================
-
-* **Download SDK** 클릭
 
 
-Gamebase SDK 확인
-=======================
 
-* {PROJECT PATH}/GamebaseSDK
 
-  .. image:: _static/image/gamebase_sdk_explorer.png

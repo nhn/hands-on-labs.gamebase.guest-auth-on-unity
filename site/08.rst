@@ -1,22 +1,52 @@
-.. _AndroidManifest:
-
 #######################
-Android Manifest 설정
+Gamebase Logout
 #######################
 
+Logout 구현
+===============================
 
-AndroidManifest 파일 복사
-===========================
+Assets/TOAST/Codelab/Gamebase/Scripts/HandsOnLab/UserImplementation.cs 파일의 Logout() 함수에 다음과 같이 코드 입력
 
-* 소스 경로 : {Unity 설치 폴더}/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/AndroidManifest.xml 
-* 대상 경로 : {Project Root}/Assets/Plugins/Android/AndroidManifest.xml
+.. code-block:: C#
 
-AndroidManifest 파일 수정
-===========================
+  public static void Logout()
+  {
+      Gamebase.Logout((error) =>
+      {
+          if (Gamebase.IsSuccess(error) == true)
+          {
+              SampleLogger.Log("Logout succeeded.");
+          }
+          else
+          {
+              SampleLogger.Log(string.Format("Logout failed. Error:{0}", error));
+          }
+      });
+  }
 
-* package name 변경: com.nhn.handsonlab
-* activity name 변경 : com.toast.android.gamebase.activity.GamebaseMainActivity
 
-.. image:: _static/image/androidmanifest.png
-    :scale: 50%
+Build & Run
+===============================
 
+Menu > File > Save Project
+
+1. Android 디바이스 연결
+2. **Menu > File > Build & Run**
+
+  .. image:: _static/image/unity_build_and_run.png
+
+3. APK 파일 이름: gamebase-handsonlab.apk
+4. 디바이스에서 실행 확인
+5. Click **Initialize**
+6. Click **Login**
+7. Click **Logout**
+
+.. image:: _static/image/run_ui.png
+
+
+Troubleshooting
+===============================
+
+Logout 중 오류가 발생할 경우 다음 문서를 참고하시기 바랍니다.
+
+`Error Handling <http://docs.toast.com/ko/Game/Gamebase/ko/unity-authentication/#error-handling>`_ 

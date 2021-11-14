@@ -1,5 +1,50 @@
-######################
-샘플 코드
-######################
+##################################
+NHN Cloud Console 설정
+##################################
 
-`Codelab-GamebaseHandsOnLab.unitypackage 다운로드 <http://static.toastoven.net/toastcloud/sdk_download/gamebase/HandsonLab/Unity/Codelab-GamebaseHandsOnLab.unitypackage>`_
+Gamebase를 사용하기 위해서 Conslole에서 프로젝트를 생성합니다.
+
+프로젝트 생성
+==============
+
+1. NHN Cloud Console 접속
+
+  * https://console.toast.com
+
+2. NHN Cloud Console 상단 대시보드에서 새 프로젝트 생성
+
+  * 프로젝트 이름 : HandsOnLab
+  * 프로젝트 설명 : Sample for Gamebase
+
+Gamebase 서비스 활성화
+=======================
+
+1. **Menu > 서비스 추가**
+
+  .. image:: _static/image/console_add_service.png
+
+2. **Game > Gamebase** 활성화
+
+  .. image:: _static/image/console_gamebase_on.png
+
+3. **Menu > Game > Gamebase > 앱**
+
+  .. image:: _static/image/console_leftmenu.png
+
+4. **클라이언트** 탭 선택
+5. Click **Android 등록**
+
+  .. image:: _static/image/console_add_android_button.png
+
+6. Android 클라이언트 등록 창에 아래 내용 입력
+
+  * 스토어 : Google Play
+  * 클라이언트 버전 : 1.0.0
+  * 서비스 상태 : 테스트
+  * 서버 주소 : 빈 값
+    
+  .. image:: _static/image/console_android_app.png
+
+
+
+

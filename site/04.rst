@@ -1,44 +1,129 @@
-###################
-Unity 프로젝트 생성
-###################
+################
+Unity 설정
+################
 
-Unity 프로젝트를 생성하고 Gamebase Setting Tool을 설치합니다.
+Android 플랫폼 설정
+========================
+
+1. Scenes In Build
+
+  1. **Menu > File > Build Settings**
+
+    .. image:: _static/image/unity-menu-build-settings.png
+
+  2. **Scenes In Build** 에 HandsOnLabSample.scene 추가
+
+    .. image:: _static/image/unity-add-scene.png
+        :scale: 70%
+
+2. Player Settings
+  
+  1. **Menu > File > Build Settings**
+  2. Click **Player Settings**
+
+    .. image:: _static/image/unity_build_settings.png
+
+  3. 기본 값 설정
+
+    * Company Name: nhn
+    * Product Name: HandsOnLab
+    * Default Icon: Assets/TOAST/Codelab/Resources/Images/Icon/icon.png
+  
+    .. image:: _static/image/unity_player_settings.png
+
+  4. Resolution and Presentation
+    
+    * Defautl Orientation: Landscape Left
+
+    .. image:: _static/image/unity_build_settings_Orientation.png
+
+  5. Other Settings
+    
+    * Package Name: com.xxx.xxx 
+
+    .. tip::
+      * Google Play Console 설정 시, 동일한 Package Name의 앱이 이미 출시가 되어 있으면 문제가 발생할 수 있으니 고유한 이름으로 설정하십시오.
+
+    .. image:: _static/image/unity_build_settings_package_name.png
+  
+  6. Publishing Settings
+
+    .. tip::
+      * Unity 2018.4.0f1을 기준으로 작성되었습니다.
+    
+    1. **keystore** 생성
+      
+      1. **Create a new Keystore** 선택      
+      2. Click **Browse Keystore**
+      
+        .. image:: _static/image/unit_keystore.png
+
+        * Windows : **C:/Users/<USERNAME>/.android/handsonlab.keystore**
+        * Mac/Linux : **$HOME/.android/handsonlab.keystore**
+
+      3. **keystore password** 입력 : android
+      4. **Confirm keystore password** 입력 : android
+
+    2. **Alias** 생성
+
+      1. **Create a new key** 선택
+    
+        .. image:: _static/image/unit_keystore_alias.png
+
+      2. Alias 설정 값 입력
+
+        * Alias: handsonlab
+        * Password: android
+        * Confirm:  android
+        * Validity: 50
+        * First and Last Name: name
+        * Organizational Unit: android
+        * Organization: nhn
+        * City or Locality: Bundang-gu
+        * State or Province: Seongnam-si
+        * Country Code: kr
+
+        .. image:: _static/image/unit_keystore_create.png
+
+SHA-1 확인 방법
+==================
+
+.. tip::        
+  * JDK bin 폴더가 환경변수 > 시스템변수 > Path에 추가 되어 있어야 합니다.
+  * keystore 파일이 있는 폴더에서 확인이 가능합니다.
+
+1. cmd 열기
+2. cd 명령어를 사용하여 handsonlab.keystore 파일 저장 경로로 이동
+3. keytool 명령어 입력
+
+  .. code-block::
+
+    keytool -list -v -keystore handsonlab.keystore
+
+  .. image:: _static/image/cmd_keystore.png
+
+4. 비밀번호: android
+5. SHA-1 인증서 디지털 지문 확인
+
+Build & Run
+==================
+
+1. Android 디바이스 연결
+2. **Menu > File > Build & Run**
+
+  .. image:: _static/image/unity_build_and_run.png
+
+3. APK 파일 이름: gamebase-handsonlab.apk
+4. 디바이스에서 실행 확인
 
 
-Unity 프로젝트 생성
-=====================
+Troubleshooting
+==================
 
+1. UnityException: Can not sign the application Unable to sign the application; please provide passwords!
 
-1. Unity 실행
-2. HandsOnLab 이름으로 새 3D 프로젝트 생성
+  * 위 PlayerSettings 설정에서 [Keystore] 내용을 참고해서 설정하시기 바랍니다.
 
+2. 실행하면 Unity Splash 이미지만 보이는 경우
 
-Gamebase Setting Tool 설치
-================================
-
-TOAST를 이용한 설치
----------------------
-
-1. Gamebase Setting Tool 패키지 다운로드
-    - http://docs.toast.com/ko/Download/#game-gamebase
-
-    .. image:: _static/image/download_settingtool.png
-
-2. 패키지 임포트
-    - **Menu > Assets > Import Package > Custom Package**
-    - GamebaseSettingTool_vx.x.x.unitypackage 선택
-    - Click **Import**
-
-
-Unity Asset Store를 이용한 설치
---------------------------------
-
-1. Asset Store 실행 **Menu > Window > Asset Store**
-2. 검색창엡 이용해서 **Gamebase Setting Tool** 입력해서 Setting Tool 검색
-3. **Download** 클릭
-
-  .. tip:: 
-
-    - 최초 다운로드인 경우에만 노출
-
-4. **Import** 클릭
+  * 빌드에 씬 추가가 안 되어 있어서 그렇습니다. [빌드 씬 추가] 부분을 참고하시기 바랍니다.

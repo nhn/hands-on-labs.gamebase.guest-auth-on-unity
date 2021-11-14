@@ -1,37 +1,28 @@
-##################################
-Gamebase Console에서 프로젝트 생성
-##################################
+######################
+Unity 샘플 프로젝트
+######################
 
-Gamebase를 사용하기 위해서 Conslole에서 프로젝트를 생성합니다.
+Unity Package 다운로드
+==========================
 
-프로젝트 생성
-==============
+`Codelab-GamebaseHandsOnLab.unitypackage 다운로드 <http://static.toastoven.net/toastcloud/sdk_download/gamebase/HandsonLab/Unity/Codelab-GamebaseHandsOnLab.unitypackage>`_
 
-1. TOAST Console 접속
-    - https://console.toast.com
+샘플 설치
+==========================
 
-2. TOAST Console 상단 대시보드에서 새 프로젝트 생성
-    - 프로젝트 이름 : HandsOnLab
-    - 프로젝트 설명 : Sample for Gamebase
+1. Import Package 
+  
+  * **Menu > Assets > Import Package > Custom Package**
 
+    .. image:: _static/image/unity-menu-importpackage.png
 
-Gamebase 서비스 활성화
-=======================
+  * 다운로드한 **Codelab-GamebaseHandsOnLab.unitypackage** 열기
 
-1. 좌측 사이드 메뉴에서 **서비스 추가** 클릭
-2. **Game > Gamebase** 선택 및 활성화
+2. Scene 열기
 
-.. image:: _static/image/console_gamebase_on.png
+  * **Assets > TOAST > Codelab > Gamebase > Scenes > HandsOnLabSample.scene**
 
-3. 좌측 사이드 메뉴에서 **Game > Gamebase** 선택
-4. **앱 > 클라이언트** 이동
-5. Android 등록
-    - 스토어 : Google Play
-    - 클라이언트 버전 : 1.0.0
-    - 서비스 상태 : 테스트
-    - 서버 주소 : 빈 값
-        .. image:: _static/image/console_android_app.png
-
+    .. image:: _static/image/unity_sample_scene.png
 
 
 
