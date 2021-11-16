@@ -25,7 +25,7 @@ Android 플랫폼 설정
 
   3. 기본 값 설정
 
-    * Company Name: nhn
+    * Company Name: 회사 이름을 입력합니다. (ex: nhn)
     * Product Name: HandsOnLab
     * Default Icon: Assets/TOAST/Codelab/Resources/Images/Icon/icon.png
   
@@ -42,7 +42,7 @@ Android 플랫폼 설정
     * Package Name: com.xxx.xxx 
 
     .. tip::
-      * Google Play Console 설정 시, 동일한 Package Name의 앱이 이미 출시가 되어 있으면 문제가 발생할 수 있으니 고유한 이름으로 설정하십시오.
+      * Google Play Console 설정 시, 동일한 Package Name의 앱이 이미 출시가 되어 있으면 문제가 발생할 수 있으니 고유한 이름으로 설정합니다.
 
     .. image:: _static/image/unity_build_settings_package_name.png
   
@@ -51,26 +51,26 @@ Android 플랫폼 설정
     .. tip::
       * Unity 2018.4.0f1을 기준으로 작성되었습니다.
     
-    1. **keystore** 생성
+    1. keystore 생성
       
-      1. **Create a new Keystore** 선택      
+      1. Create a new Keystore: 활성화   
       2. Click **Browse Keystore**
       
         .. image:: _static/image/unit_keystore.png
 
-        * Windows : **C:/Users/<USERNAME>/.android/handsonlab.keystore**
-        * Mac/Linux : **$HOME/.android/handsonlab.keystore**
+        * Windows: C:/Users/<USERNAME>/.android/handsonlab.keystore
+        * Mac/Linux: $HOME/.android/handsonlab.keystore
 
-      3. **keystore password** 입력 : android
-      4. **Confirm keystore password** 입력 : android
+      3. keystore password: android
+      4. Confirm keystore password: android
 
-    2. **Alias** 생성
+    2. Alias 생성
 
-      1. **Create a new key** 선택
+      1. Select **Create a new key**
     
         .. image:: _static/image/unit_keystore_alias.png
 
-      2. Alias 설정 값 입력
+      2. Alias 설정
 
         * Alias: handsonlab
         * Password: android
@@ -90,10 +90,9 @@ SHA-1 확인 방법
 
 .. tip::        
   * JDK bin 폴더가 환경변수 > 시스템변수 > Path에 추가 되어 있어야 합니다.
-  * keystore 파일이 있는 폴더에서 확인이 가능합니다.
 
 1. cmd 열기
-2. cd 명령어를 사용하여 handsonlab.keystore 파일 저장 경로로 이동
+2. cd 명령어를 사용하여 handsonlab.keystore 파일이 있는 경로로 이동
 3. keytool 명령어 입력
 
   .. code-block::
@@ -122,8 +121,8 @@ Troubleshooting
 
 1. UnityException: Can not sign the application Unable to sign the application; please provide passwords!
 
-  * 위 PlayerSettings 설정에서 [Keystore] 내용을 참고해서 설정하시기 바랍니다.
+  * **[2.6.1 keystore 생성]** 참고하십시오.
 
 2. 실행하면 Unity Splash 이미지만 보이는 경우
 
-  * 빌드에 씬 추가가 안 되어 있어서 그렇습니다. [빌드 씬 추가] 부분을 참고하시기 바랍니다.
+  * **[1. Scenes In Build]** 을 참고하십시오.

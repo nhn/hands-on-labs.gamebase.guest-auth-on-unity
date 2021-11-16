@@ -1,5 +1,5 @@
 #######################
-Gamebase Initialize
+Gamebase Code
 #######################
 
 설정값 확인
@@ -14,10 +14,11 @@ NHN Cloud Console 에서 App ID와 App Version 확인
 
   .. image:: _static/image/console_app_version.png
 
-Initialize 구현
+Initialize
 =========================
 
-**Assets/TOAST/Codelab/Gamebase/Scripts/HandsOnLab/UserImplementation.cs** 파일의 Initialize() 함수에 다음과 같이 코드 입력
+1. **Assets/TOAST/Codelab/Gamebase/Scripts/HandsOnLab/UserImplementation.cs** 파일 열기
+2. Initialize() 메서드 수정
 
 .. code-block:: C#
 
@@ -44,6 +45,50 @@ Initialize 구현
       });
   }
 
+Guest Login
+===============================
+
+Login() 메서드 수정
+
+.. code-block:: C#
+
+  public static void Login()
+  {
+      Gamebase.Login(GamebaseAuthProvider.GUEST, (authToken, error) =>
+      {
+          if (Gamebase.IsSuccess(error) == true)
+          {
+              SampleLogger.Log(string.Format("Guest login succeeded. User ID:{0}", authToken.member.userId));
+          }
+          else
+          {
+              SampleLogger.Log(string.Format("Guest login failed. Error:{0}", error));
+          }
+      });
+  }
+
+Logout
+===============================
+
+Logout() 메서드 수정
+
+.. code-block:: C#
+
+  public static void Logout()
+  {
+      Gamebase.Logout((error) =>
+      {
+          if (Gamebase.IsSuccess(error) == true)
+          {
+              SampleLogger.Log("Logout succeeded.");
+          }
+          else
+          {
+              SampleLogger.Log(string.Format("Logout failed. Error:{0}", error));
+          }
+      });
+  }
+
 Build & Run
 =========================
 
@@ -55,8 +100,10 @@ Menu > File > Save Project
   .. image:: _static/image/unity_build_and_run.png
 
 3. APK 파일 이름: gamebase-handsonlab.apk
-4. 디바이스에서 실행 확인
+4. 디바이스에서 실행
 5. Click **Initialize**
+6. Click **Login**
+7. Click **Logout**
 
 .. image:: _static/image/run_ui.png
 
@@ -65,8 +112,12 @@ Troubleshooting
 
 Initialze 중 오류가 발생할 경우 다음 문서를 참고하시기 바랍니다.
 
-* `Error Handling <http://docs.toast.com/ko/Game/Gamebase/ko/unity-initialization/#error-handling>`_ 
+* `Initialization Error Handling <http://docs.toast.com/ko/Game/Gamebase/ko/unity-initialization/#error-handling>`_ 
+
+Login, Logout 중 오류가 발생할 경우 다음 문서를 참고하시기 바랍니다.
+
+* `Authentication Error Handling <http://docs.toast.com/ko/Game/Gamebase/ko/unity-authentication/#error-handling>`_ 
 
 .. tip::
 
-    - Error Code = 32인 경우에는 AndroidManifest 설정을 다시 확인하시기 바랍니다.
+    - Error Code = 32인 경우에는 [5. AndroidManifest 설정] 을 다시 확인하시기 바랍니다.

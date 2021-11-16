@@ -2,7 +2,7 @@
 NHN Cloud Console 설정
 ##################################
 
-Gamebase를 사용하기 위해서 Conslole에서 프로젝트를 생성합니다.
+Gamebase를 이용하기 위해서 Conslole에서 프로젝트를 생성합니다.
 
 프로젝트 생성
 ==============
@@ -36,7 +36,7 @@ Gamebase 서비스 활성화
 
   .. image:: _static/image/console_add_android_button.png
 
-6. Android 클라이언트 등록 창에 아래 내용 입력
+6. Android 클라이언트 설정
 
   * 스토어 : Google Play
   * 클라이언트 버전 : 1.0.0

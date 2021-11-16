@@ -18,6 +18,4 @@ Gamebase Authenticate for Unity Android
    04
    05
    06
-   07
-   08
    wrap-up
