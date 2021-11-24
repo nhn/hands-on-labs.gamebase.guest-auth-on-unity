@@ -27,7 +27,7 @@ Android 플랫폼 설정
 
     * Company Name: 회사 이름을 입력합니다. (ex: nhn)
     * Product Name: HandsOnLab
-    * Default Icon: Assets/TOAST/Codelab/Resources/Images/Icon/icon.png
+    * Default Icon: Assets/NhnCloud/Codelab/Resources/Images/Icon/icon.png
   
     .. image:: _static/image/unity_player_settings.png
 

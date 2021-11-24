@@ -20,7 +20,7 @@ Unity Package 다운로드
 
 2. Scene 열기
 
-  * **Assets > TOAST > Codelab > Gamebase > Scenes > HandsOnLabSample.scene**
+  * **Assets > NhnCloud > Codelab > Gamebase > Scenes > HandsOnLabSample.scene**
 
     .. image:: _static/image/unity_sample_scene.png
 

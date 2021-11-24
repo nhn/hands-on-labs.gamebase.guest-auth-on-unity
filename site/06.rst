@@ -17,7 +17,7 @@ NHN Cloud Console 에서 App ID와 App Version 확인
 Initialize
 =========================
 
-1. **Assets/TOAST/Codelab/Gamebase/Scripts/HandsOnLab/UserImplementation.cs** 파일 열기
+1. **Assets/NhnCloud/Codelab/Gamebase/Scripts/HandsOnLab/UserImplementation.cs** 파일 열기
 2. Initialize() 메서드 수정
 
 .. code-block:: C#
